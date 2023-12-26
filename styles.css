@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: skyblue;
+}
+h1{
+  text-align: center;
+  color: #f0f0f0;
+}
+h3{
+  text-align: center;
+  color: #f0f0f0;
+}
+.user li {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 1s, box-shadow 0.3s; /* Added box-shadow to the transition */
+}
+
+.user li:hover {
+  background-color: red;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1); /* Add shadow on hover */
+}
+
+.item {
+  display: block;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  background-color:gray;
+  color: #f0f0f0;
+  cursor: pointer;
+  transition: background-color 1s, box-shadow 0.3s; 
+}
+.item:hover {
+  background-color:white;
+  color: gray;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
